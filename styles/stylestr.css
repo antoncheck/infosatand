@@ -1,0 +1,139 @@
+@import url(./fonts.css);
+*{
+    font-family: "Mont";
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container-revers{
+    max-width: 970px !important;
+    width: 970px;
+    margin: 0 auto;
+
+}
+.container{
+    max-width: 970px !important;
+    width: 970px;
+    margin: 0 auto;
+    padding: 0 0 !important;
+
+}
+.head{
+    background-color: #CDF1EC;
+    padding: 25px 0 25px 0;
+}
+
+.head .container .but{
+    width: 150px;
+}
+.head .container .but .button{
+    width: 150px ;
+    height: 55px;
+    font-family: 'Monts';
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+    background: #439D90 !important;
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
+}
+.head .container .zagolovok{
+    font-family: 'Montb';
+    font-size: 60px;
+    color: #439D90;
+    text-align: center;
+    width: 970px;
+}
+/*content*/
+.content{
+    padding-top: 45px;
+}
+.content .container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+
+}
+.content .container .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content .container .text .zag{
+    font-family: 'Monts';
+    font-size: 24px;
+}
+.content .container .text p{
+    font-family: 'Mont';
+    font-size: 16px;
+    color: black
+}
+.content .container .text .info{
+    font-family: 'Mont';
+    font-size: 16px;
+    color: black
+}
+
+
+.content .container-revers{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+    flex-direction: row-reverse;
+
+}
+.content .container-revers .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content .container-revers .text .zag{
+    font-family: 'Monts';
+    font-size: 24px;
+}
+.content .container-revers .text p{
+    font-family: 'Mont';
+    font-size: 16px;
+    color: black
+}
+.content .container-revers .text .info{
+    font-family: 'Mont';
+    font-size: 16px;
+    color: black
+}
+
+
+ /*footer*/
+ .niz{
+    background-color: #CDF1EC;
+    padding: 20px 0 20px 0;
+  }
+  .niz .container{
+    display: flex;
+    justify-content: space-between;
+  }
+  .niz .container .prava{
+    font-family: 'Monts';
+    font-size: 12px;
+    
+  }
+  .niz .container .text{
+    font-family: 'Mont';
+    font-size: 12px;
+  }
+  
+  .niz .container .rightblock .site{
+    font-family: 'Monts';
+    font-size: 14px;
+    text-align: center;
+  }
+  .niz .container .leftblock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+  }
