@@ -48,6 +48,12 @@
     color: #439D90;
     text-align: center;
     width: 970px;
+    
+}
+
+.head .container .but{
+    position: absolute;
+    top: 35px;
 }
 /*content*/
 .content{
@@ -56,7 +62,7 @@
 .content .container{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 45px;
+    margin-bottom: 50px;
 
 }
 .content .container .text{
@@ -65,25 +71,28 @@
     justify-content: center;
 }
 .content .container .text .zag{
-    font-family: 'Monts';
-    font-size: 24px;
+    font-family: 'Montb';
+    font-size: 23px;
+    color: #439D90;;
 }
 .content .container .text p{
     font-family: 'Mont';
     font-size: 16px;
-    color: black
+    color: black;
 }
 .content .container .text .info{
     font-family: 'Mont';
     font-size: 16px;
-    color: black
+    color: black;
+    line-height: 21px;
+    
 }
 
-
+/*revers - container*/
 .content .container-revers{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 45px;
+    margin-bottom: 50px;
     flex-direction: row-reverse;
 
 }
@@ -95,17 +104,44 @@
 .content .container-revers .text .zag{
     font-family: 'Monts';
     font-size: 24px;
+    color: #439D90;;
 }
 .content .container-revers .text p{
     font-family: 'Mont';
     font-size: 16px;
-    color: black
+    color: black;
 }
 .content .container-revers .text .info{
     font-family: 'Mont';
     font-size: 16px;
-    color: black
+    color: black;
+    line-height: 21px;
 }
+.content .container .photo img{
+    width: 450px;
+    border:5px solid #439D90;
+    border-radius: 20px;
+
+}
+.content .container .photo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.content .container-revers .photo img{
+    width: 450px;
+    border:5px solid #439D90;
+    border-radius: 20px;
+
+}
+.content .container-revers .photo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
 
 
  /*footer*/
