@@ -25,6 +25,9 @@
 .head{
     background-color: #CDF1EC;
     padding: 25px 0 25px 0;
+    position: sticky;
+    top: 0;
+    z-index: 5;
 }
 
 .head .container .but{
@@ -100,6 +103,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 450px;
 }
 .content .container-revers .text .zag{
     font-family: 'Monts';
@@ -172,4 +176,45 @@
     display: flex;
     flex-direction: column;
     justify-content: center
+  }
+  /*regim*/
+  .reg .container{
+    margin-top: 45px;
+    margin-bottom: 560px;
+  }
+  .reg .container .info{
+    font-family: 'Mont';
+    font-size: 20px;
+    color: black;
+    line-height: 27px;
+  }
+  .reg .container .info b{
+    font-family: 'Monts';
+  }
+  /*timing*/
+  .rasp .container{
+    margin-top: 45px;
+    margin-bottom: 560px;
+  }
+  .rasp .container .accordion{
+    --bs-accordion-bg: #CDF1EC;
+  }
+  .rasp .container .accordion-item{
+    border-radius: 20px !important;
+  }
+  .rasp .container .accordion-header button{
+    border-radius: 10px !important;
+    height: 80px;
+    margin-top: 15px;
+    font-family: 'Monts';
+    font-size: 26px;
+    color: #439D90;
+    
+  }
+  .rasp .container .accordion-body{
+    height: 100%;
+  }
+  .test .container iframe{
+    width: 100%;
+    height: 500px;
   }
