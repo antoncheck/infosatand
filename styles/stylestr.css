@@ -194,7 +194,7 @@
   /*timing*/
   .rasp .container{
     margin-top: 45px;
-    margin-bottom: 560px;
+    margin-bottom: 60px;
   }
   .rasp .container .accordion{
     --bs-accordion-bg: #CDF1EC;
@@ -217,4 +217,14 @@
   .test .container iframe{
     width: 100%;
     height: 500px;
+  }
+
+
+  /*news*/
+  .news .container .photo .photo-qr img{
+    width: 450px;
+    height: 100%;
+  }
+  .news .container .photo .photo-qr{
+    display: flex;
   }
