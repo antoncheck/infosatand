@@ -67,7 +67,7 @@
 .content .container{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 
 }
 .content .container .text{
@@ -97,7 +97,7 @@
 .content .container-revers{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     flex-direction: row-reverse;
 
 }
@@ -152,7 +152,7 @@
   /*regim*/
   .reg .container{
     margin-top: 45px;
-    margin-bottom: 560px;
+    margin-bottom: 420px;
   }
   .reg .container .info{
     font-family: 'Mont';
@@ -166,7 +166,7 @@
   /*timing*/
   .rasp .container{
     margin-top: 45px;
-    margin-bottom: 60px;
+    margin-bottom: 1160px;
   }
   .rasp .container .accordion{
     --bs-accordion-bg: #CDF1EC;
@@ -192,7 +192,7 @@
   }
 
 
-  /*news*/
+  /*news-documents*/
   .news .container .photo-qr img{
     width: 400px;
     height: 100%;
@@ -206,44 +206,32 @@
   }
   .news .container .photo-qr .text{
     font-family: 'Monts';
-    font-size: 40px;
+    font-size: 35px;
   }
   .news .container {
     display: flex;
     text-align: center;
     justify-content: center;
     margin-top: 45px;
-    margin-bottom: 1145px;
-  }
-
-  /*footer*/
- .niz{
-    background-color: #CDF1EC;
-    padding: 20px 0 20px 0;
-  }
-  .niz .container{
-    display: flex;
-    justify-content: space-between;
-  }
-  .niz .container .prava{
-    font-family: 'Monts';
-    font-size: 12px;
     
   }
-  .niz .container .text{
-    font-family: 'Mont';
-    font-size: 12px;
-  }
-  
-  .niz .container .rightblock .site{
-    font-family: 'Monts';
-    font-size: 14px;
-    text-align: center;
-  }
-  .niz .container .leftblock{
+  .code .container{
     display: flex;
+    justify-content: center;
+
+  }
+
+  .code .text{
+    display: flex;
+    justify-content: flex-end;
+    width: 300px;
     flex-direction: column;
-    justify-content: center
+    position: relative;
+    bottom: 20px;
+
+  }
+  .code{
+    margin-bottom: 700px;
   }
 
 /*profilactika*/
@@ -267,6 +255,8 @@
   line-height: 18px;
   line-break: 4px;
   font-size: 16px;
+  
+  
 }
 .prof .container .card-text b{
   font-family: "Montb";
@@ -312,5 +302,34 @@
   margin-top: 40px;
   justify-content: center;
 }
+
+ /*footer*/
+ .niz{
+  background-color: #CDF1EC;
+  padding: 20px 0 20px 0;
+}
+.niz .container{
+  display: flex;
+  justify-content: space-between;
+}
+.niz .container .prava{
+  font-family: 'Monts';
+  font-size: 12px;
   
+}
+.niz .container .text{
+  font-family: 'Mont';
+  font-size: 12px;
+}
+
+.niz .container .rightblock .site{
+  font-family: 'Monts';
+  font-size: 14px;
+  text-align: center;
+}
+.niz .container .leftblock{
+  display: flex;
+  flex-direction: column;
+  justify-content: center
+}
   
