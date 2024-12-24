@@ -1,5 +1,5 @@
 'use strict'
-let inactivityTime = 6000; // Время бездействия в миллисекундах (например, 30 секунд)
+let inactivityTime = 40000; // Время бездействия в миллисекундах (например, 30 секунд)
 let timeout;
 
 function resetTimer() {

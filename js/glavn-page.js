@@ -1,5 +1,5 @@
 'use strict'
-let returnTime = 6000; // Время бездействия в миллисекундах (например, 30 секунд)
+let returnTime = 30000; // Время бездействия в миллисекундах (например, 30 секунд)
 let timeout;
 
 function scrollToFirstSection() {
