@@ -22,7 +22,7 @@
     padding: 0 0 !important;
 
 }
-/*shapka-pages*/
+/*шапка дочерних страниц*/
 .head{
     background-color: #CDF1EC;
     padding: 50px 0 50px 0;
@@ -59,7 +59,8 @@
     position: absolute;
     top: 50px;
 }
-/*contacts*/
+
+/*contacts-normal-container*/
 /*content*/
 .content{
     padding-top: 45px;
@@ -149,7 +150,7 @@
     
 }
 
-  /*regim*/
+  /*режим и график работы*/
   .reg .container{
     margin-top: 45px;
     margin-bottom: 420px;
@@ -163,36 +164,82 @@
   .reg .container .info b{
     font-family: 'Monts';
   }
-  /*timing*/
+  /*расписание*/
   .rasp .container{
     margin-top: 45px;
-    margin-bottom: 1160px;
+    margin-bottom: 1020px;
+    display: flex;
+    flex-direction: column;
   }
-  .rasp .container .accordion{
-    --bs-accordion-bg: #CDF1EC;
-  }
-  .rasp .container .accordion-item{
-    border-radius: 20px !important;
-  }
-  .rasp .container .accordion-header button{
-    border-radius: 10px !important;
-    height: 80px;
-    margin-top: 15px;
-    font-family: 'Monts';
-    font-size: 26px;
+  .rasp .container .zag{
+    font-family: 'Montb';
+    text-transform: uppercase;;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 28px;
     color: #439D90;
+  }
+  .rasp .container button{
+    margin-bottom: 15px;
+    padding: 18px 5px 18px 5px;
+    background-color:#439D90;
+    color: #fff;
+    font-family: 'Monts';
+    font-size: 22px;
+    border: none;
+    border-radius: 15px;
     
   }
-  .rasp .container .accordion-body{
-    height: 100%;
-  }
-  .test .container iframe{
+  
+
+  /*Модальное окно*/
+  #modal {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 500px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #modal-content {
+    width: 100%;
+    max-width: 1080px;
+    height: 90%;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  #modal iframe {
+    flex: 1;
+    width: 100%;
+    border: none;
+  }
+  .close-btn {
+    position: absolute;
+    top: 93%;
+    right: 10px;
+    padding: 10px 20px 10px 20px;
+    height: 80px;
+    
+    background-color:#439D90;
+    color: #fff;
+    font-family: 'Monts';
+    font-size: 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    z-index: 1100;
   }
 
 
-  /*news-documents*/
+  /*новости и документы*/
   .news .container .photo-qr img{
     width: 400px;
     height: 100%;
@@ -234,7 +281,7 @@
     margin-bottom: 700px;
   }
 
-/*profilactika*/
+/*профилактика и видео*/
 .glavn .container{
   display: flex;
   flex-direction: column;
@@ -268,6 +315,10 @@
   border-radius: 10px;
 
 }
+.prof .container .col img{
+  width: 100%;
+
+}
 .prof .container .col .card{
   border-radius: 11px !important;
 
@@ -281,7 +332,7 @@
   padding-bottom: 0rem!important;
 }
 
-/*button back*/
+/*кнопка назад*/
 
 .back .container .but .button{
   width: 190px ;
