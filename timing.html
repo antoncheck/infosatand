@@ -22,22 +22,58 @@
     </section>
     <section class="rasp">
         <div class="container">
-          <h2 class="zag">Расписание врачей поликлиник:</h2>
-          <!-- Кнопки для открытия модальных окон -->
-          <button onclick="openModal('https://mis.mznn.ru/scoreboard/520101000000050')">Поликлиника № 1 на ул. Культуры, д. 17</button>
-          <button onclick="openModal('https://mis.mznn.ru/scoreboard/520101000000052')">Поликлиника № 1 на ул. Ефремова, д. 10а</button>
-          <button onclick="openModal('https://mis.mznn.ru/scoreboard/520101000000188')">Поликлиника № 2 на пр. Кораблестроителей, д. 2а</button>
-          <button onclick="openModal('https://mis.mznn.ru/scoreboard/520101000000526')">Поликлиника № 2 на ул. 5-я Дубравная, д. 3</button>
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Поликлиника № 1 на ул. Культуры, д. 17
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <img src=".//img/rasp1.PNG" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Поликлиника № 1 на ул. Ефремова, д. 10а
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body"> 
+                    <img src=".//img/rasp2.PNG" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Поликлиника № 2 на пр. Кораблестроителей, д. 2а
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <img src=".//img/rasp3.PNG" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                      Поликлиника № 2 на ул. 5-я Дубравная, д. 3
+                  </button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <img src=".//img/rasp4.PNG" alt="">
+                  </div>
+                </div>
+              </div>
+          </div> 
+          
         </div>
-        <!-- Модальное окно -->
-        <div id="modal" hidden>
-          <div id="modal-content">
-            <button class="close-btn" onclick="closeModal()">Закрыть</button>
-            <iframe src=""></iframe>
-          </div>
-        </div>
-    
-    <script src=".//js/modal-window.js"></script>
     </section>
 
     <section class="back">
